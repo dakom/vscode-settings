@@ -1,0 +1,42 @@
+[
+    {
+        "key": "cmd+h",
+        "command": "workbench.action.navigateLeft"
+    },
+    {
+        "key": "cmd+l",
+        "command": "workbench.action.navigateRight"
+    },
+    {
+        "key": "cmd+k",
+        "command": "workbench.action.navigateUp"
+    },
+    {
+        "key": "cmd+j",
+        "command": "workbench.action.navigateDown"
+    },
+    {
+        "key": "ctrl+h",
+        "command": "workbench.action.navigateLeft"
+    },
+    {
+        "key": "ctrl+l",
+        "command": "workbench.action.navigateRight"
+    },
+    {
+        "key": "ctrl+k",
+        "command": "workbench.action.navigateUp"
+    },
+    {
+        "key": "ctrl+j",
+        "command": "workbench.action.navigateDown"
+    },
+    {
+        "key": "ctrl+p",
+        "command": "workbench.action.quickOpen"
+    },
+    {
+        "key": "cmd+p",
+        "command": "-workbench.action.quickOpen"
+    }
+]

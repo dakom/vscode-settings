@@ -1,0 +1,82 @@
+// Place your settings in this file to overwrite the default settings
+{
+    "workbench.editor.showTabs": false,
+    "workbench.activityBar.visible": true,
+    "workbench.iconTheme": null,
+
+    "window.title": "${rootPath}${separator}${appName}",
+    "window.menuBarVisibility": "toggle",
+
+    "editor.trimAutoWhitespace": true,        
+    "editor.lineNumbers": "on",
+    "editor.mouseWheelZoom": true,
+    "editor.wordWrap": "off",
+	
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/.DS_Store": true,
+    },
+
+    "workbench.colorTheme": "Ayu Mirage",
+    "window.zoomLevel": 0,
+    "editor.minimap.enabled": false,
+    //"editor.parameterHints.enabled": false,
+    "editor.fontSize": 14,
+    "editor.fontFamily": "FuraCode NF",
+    "rust.mode": "rls",
+    "rust.rustup": {
+        "nightlyToolchain": "nightly-x86_64-apple-darwin",
+        "toolchain": "nightly-x86_64-apple-darwin"
+    },
+    "rust.rls.useRustfmt": true,
+    "vim.handleKeys": {
+        "<C-d>": true,
+    },
+    //"vim.useCtrlKeys": true,
+    "vim.leader": "<space>",
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": ["<leader>", "j"],
+            "commands": [
+                "editor.action.marker.nextInFiles"
+            ]
+        },
+        {
+            "before": ["<leader>", "k"],
+            "commands": [
+                "editor.action.marker.prevInFiles"
+            ]
+        },
+        {
+            "before": ["<leader>", "d"],
+            "commands": [
+                "workbench.actions.view.problems"
+            ]
+        },
+        {
+            "before": ["<leader>", "t", "o"],
+            "commands": [
+                "workbench.action.maximizeEditor"
+            ]
+        },
+        {
+            "before": ["<leader>", "t", "c"],
+            "commands": [
+                "workbench.action.evenEditorWidths"
+            ]
+        },
+
+        {
+            "before": ["<leader>", "<CR>"],
+            "commands": [
+                "workbench.action.keepEditor"
+            ]
+        }
+
+    ],
+    "typescript.updateImportsOnFileMove.enabled": "never",
+
+    
+}
